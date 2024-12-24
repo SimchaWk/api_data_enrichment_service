@@ -21,5 +21,5 @@ async def run_news_processor(interval_seconds: int = 120) -> None:
 
 if __name__ == "__main__":
     asyncio.run(
-        run_news_processor(interval_seconds=300)
+        run_news_processor(interval_seconds=120)
     )
